@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.foo.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.foo.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.foo.app.modules.quizzone.ui.QuizzOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.locationtwo.ui.LocationTwoActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.foo.app.modules.listartifactstart.ui.ListArtifactStartActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.foo.app.modules.artifactinformation.ui.ArtifactInformationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.ngnhpone.ui.NgNhPOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.historyone.ui.HistoryOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.trangchone.ui.TrangChOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.khmph.ui.KhMPhActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.doithuongonecontainer.ui.DoiThuongOneContainerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.location2start.ui.Location2StartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.profile.ui.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.ngkone.ui.NgKOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.locationthree.ui.LocationThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.foo.app.modules.doithuong.ui.DoiThuongActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

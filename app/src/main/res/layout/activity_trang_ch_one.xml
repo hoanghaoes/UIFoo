@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="trangChOneVM" type="com.foo.app.modules.trangchone.data.viewmodel.TrangChOneVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackgroupnineteen"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_18pxv"
+        android:layout_width="match_parent" style="@style/groupStylebluegray_100">
+        <ImageView android:id="@+id/imageGroupNineteen"
+            android:layout_gravity="bottom|start"
+            android:layout_height="@dimen/_725pxv"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_group19}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_group19"/>
+        <LinearLayout android:id="@+id/linearColumnmusic"
+            android:layout_gravity="bottom|start"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:id="@+id/linearTrangchOne"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:gravity="end"
+                    android:id="@+id/linearIOSStatusBar"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_14pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageMusic"
+                        android:layout_height="@dimen/_11pxh"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_width="@dimen/_28pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_music"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_music"/>
+                    <ImageView android:id="@+id/imageRightSide"
+                        android:layout_height="@dimen/_11pxh"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginStart="@dimen/_216pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="@dimen/_66pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_rightside"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_rightside"/>
+                </LinearLayout>
+                <FrameLayout android:gravity="start"
+                    android:id="@+id/frameStacktmkim"
+                    android:layout_height="@dimen/_656pxv"
+                    android:layout_marginTop="@dimen/_25pxv" android:layout_width="match_parent">
+                    <LinearLayout android:id="@+id/linearMainbody"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <EditText
+                            android:background="@drawable/rectangle_bg_white_a700_radius_20"
+                            android:drawableEnd="@drawable/img_icon"
+                            android:drawablePadding="@dimen/_30pxh"
+                            android:ellipsize="end"
+                            android:hint="@string/msg_t_m_ki_m_a_i"
+                            android:id="@+id/etTmkim"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_16pxh"
+                            android:layout_marginStart="@dimen/_19pxh"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:paddingBottom="@dimen/_9pxv"
+                            android:paddingEnd="@dimen/_16pxh"
+                            android:paddingStart="@dimen/_15pxh"
+                            android:paddingTop="@dimen/_11pxv"
+                            android:singleLine="true"
+                            android:text="@={trangChOneVM.trangChOneModel.etTmkimValue}"
+                            android:textColorHint="@color/black_900_87"
+                            style="@style/etSolidRounded_1" tools:ignore="Autofill"/>
+                        <com.asksira.loopingviewpager.LoopingViewPager
+                            android:id="@+id/imageSliderSlidercthbnst"
+                            android:layout_height="@dimen/_237pxv"
+                            android:layout_marginEnd="@dimen/_20pxh"
+                            android:layout_marginStart="@dimen/_20pxh"
+                            android:layout_marginTop="@dimen/_26pxv"
+                            android:layout_width="match_parent"
+                            app:autoScroll="true" app:isInfinite="true" app:scrollInterval="5000"/>
+
+                        <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+                            android:id="@+id/indicatorGroupEighteen"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_19pxh"
+                            android:layout_marginStart="@dimen/_19pxh"
+                            android:layout_width="wrap_content"
+                            app:drawable_normal="@drawable/indicator_unselected_bg_bluegray_100_radius_8"
+                            app:drawable_selected="@drawable/indicator_selected_bg_bluegray_800_radius_8"
+                            app:indicator_size="@dimen/_5pxh" app:indicator_spacing="@dimen/_5pxh"/>
+                        <LinearLayout android:id="@+id/linearSkin"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_6pxv"
+                            android:layout_marginEnd="@dimen/_19pxh"
+                            android:layout_marginStart="@dimen/_19pxh"
+                            android:layout_marginTop="@dimen/_12pxv"
+                            android:layout_width="match_parent" android:orientation="horizontal">
+                            <FrameLayout
+                                android:id="@+id/frameStackrectangle249"
+                                android:layout_height="@dimen/_176pxv" android:layout_width="@dimen/_90pxh">
+                                <LinearLayout
+                                    android:id="@+id/linearEven"
+                                    android:layout_gravity="bottom|start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_10pxv"
+                                    android:layout_width="match_parent"
+                                    android:orientation="vertical" style="@style/groupStylewhite_A700_cccornerRadius">
+                                    <ImageView
+                                    android:id="@+id/imageRectangle249"
+                                    android:layout_height="@dimen/_86pxh"
+                                    android:layout_width="match_parent"
+                                    android:scaleType="fitXY"
+                                    imageRes="@{@drawable/img_rectangle249}"
+                                    tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle249"/>
+                                    <TextView
+                                    android:id="@+id/txtDescriptionOne"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_15pxv"
+                                    android:layout_marginEnd="@dimen/_10pxh"
+                                    android:layout_marginStart="@dimen/_4pxh"
+                                    android:layout_marginTop="@dimen/_6pxv"
+                                    android:layout_width="match_parent"
+                                    android:lineSpacingExtra="@dimen/_1pxh"
+                                    android:text="@{trangChOneVM.trangChOneModel.txtDescriptionOne}"
+                                    style="@style/txtIntersemibold5" tools:text="@string/msg_tri_n_l_m_thu"/>
+                                </LinearLayout>
+                                <TextView android:ellipsize="end"
+                                    android:gravity="top|start"
+                                    android:id="@+id/txtSkin"
+                                    android:layout_gravity="top|start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_10pxv"
+                                    android:layout_marginEnd="@dimen/_10pxh"
+                                    android:layout_width="match_parent"
+                                    android:lineSpacingExtra="@dimen/_5pxh"
+                                    android:singleLine="true"
+                                    android:text="@{trangChOneVM.trangChOneModel.txtSkin}"
+                                    style="@style/txtIntersemibold20" tools:text="@string/lbl_s_ki_n"/>
+                            </FrameLayout>
+                            <LinearLayout android:gravity="start"
+                                android:id="@+id/linearEven1"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_26pxh"
+                                android:layout_marginTop="@dimen/_24pxv"
+                                android:layout_weight="0.33"
+                                android:layout_width="0dp"
+                                android:orientation="vertical" style="@style/groupStylewhite_A700_cccornerRadius">
+                                <ImageView
+                                    android:id="@+id/imageRectangle249One"
+                                    android:layout_height="@dimen/_86pxh"
+                                    android:layout_width="match_parent"
+                                    android:scaleType="fitXY"
+                                    imageRes="@{@drawable/img_rectangle249_86x90}"
+                                    tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle249_86x90"/>
+                                <TextView
+                                    android:id="@+id/txtDescriptionTwo"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_22pxv"
+                                    android:layout_marginEnd="@dimen/_10pxh"
+                                    android:layout_marginStart="@dimen/_4pxh"
+                                    android:layout_marginTop="@dimen/_14pxv"
+                                    android:layout_width="match_parent"
+                                    android:lineSpacingExtra="@dimen/_1pxh"
+                                    android:text="@{trangChOneVM.trangChOneModel.txtDescriptionTwo}"
+                                    style="@style/txtIntersemibold5" tools:text="@string/msg_h_i_ch_xinh_f"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="start"
+                                android:id="@+id/linearEven2"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_26pxh"
+                                android:layout_marginTop="@dimen/_24pxv"
+                                android:layout_weight="0.33"
+                                android:layout_width="0dp"
+                                android:orientation="vertical" style="@style/groupStylewhite_A700_cccornerRadius">
+                                <ImageView
+                                    android:id="@+id/imageRectangle249Two"
+                                    android:layout_height="@dimen/_86pxh"
+                                    android:layout_width="match_parent"
+                                    android:scaleType="fitXY"
+                                    imageRes="@{@drawable/img_rectangle249_1}"
+                                    tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle249_1"/>
+                                <TextView android:id="@+id/txtTnhngTh"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_22pxv"
+                                    android:layout_marginEnd="@dimen/_10pxh"
+                                    android:layout_marginStart="@dimen/_4pxh"
+                                    android:layout_marginTop="@dimen/_14pxv"
+                                    android:layout_width="match_parent"
+                                    android:lineSpacingExtra="@dimen/_1pxh"
+                                    android:text="@{trangChOneVM.trangChOneModel.txtTnhngTh}"
+                                    style="@style/txtIntersemibold5" tools:text="@string/msg_t_n_h_ng_th"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearXincho"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_8pxh"
+                        android:layout_marginStart="@dimen/_7pxh"
+                        android:layout_marginTop="@dimen/_4pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <TextView android:id="@+id/txtXinchoHuyn"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_36pxv"
+                            android:layout_marginTop="@dimen/_67pxv"
+                            android:layout_weight="0.56"
+                            android:layout_width="0dp"
+                            android:lineSpacingExtra="@dimen/_1pxh"
+                            android:text="@{trangChOneVM.trangChOneModel.txtXinchoHuyn}"
+                            style="@style/txtIntersemibold20_1" tools:text="@string/msg_xin_ch_o_huy_n"/>
+                        <ImageView android:id="@+id/imageAddressbroOne"
+                            android:layout_height="@dimen/_129pxh"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:layout_marginEnd="@dimen/_12pxh"
+                            android:layout_marginStart="@dimen/_15pxh"
+                            android:layout_marginTop="@dimen/_18pxv"
+                            android:layout_width="@dimen/_140pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_addressbro1"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_addressbro1"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearHeader"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_17pxh"
+                        android:layout_marginStart="@dimen/_17pxh"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtFoocation"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_weight="0.8"
+                            android:layout_width="0dp"
+                            android:lineSpacingExtra="@dimen/_10pxh"
+                            android:singleLine="true"
+                            android:text="@{trangChOneVM.trangChOneModel.txtFoocation}"
+                            style="@style/txtJockeyOneregular24" tools:text="@string/lbl_foo_cation"/>
+                        <FrameLayout
+                            android:id="@+id/frameStacknotification"
+                            android:layout_height="@dimen/_31pxv"
+                            android:layout_marginBottom="@dimen/_3pxv"
+                            android:layout_marginEnd="@dimen/_4pxh"
+                            android:layout_marginStart="@dimen/_200pxh" android:layout_width="@dimen/_24pxh">
+                            <ImageView
+                                android:id="@+id/imageNotification"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="@dimen/_27pxh"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="@dimen/_22pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_notification"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_notification"/>
+                            <View
+                                android:background="@drawable/rectangle_bg_red_900_radius_7"
+                                android:id="@+id/viewEllipseSeven"
+                                android:layout_gravity="top|end"
+                                android:layout_height="@dimen/_14pxh"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_marginStart="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_14pxh"/>
+                            <TextView android:id="@+id/txtFive"
+                                android:layout_gravity="top|end"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_marginEnd="@dimen/_3pxh"
+                                android:layout_marginStart="@dimen/_10pxh"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_5pxh"
+                                android:text="@{trangChOneVM.trangChOneModel.txtFive}"
+                                style="@style/txtJavaneseText7" tools:text="@string/lbl_5"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/frameBottombar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" style="@style/groupStylebluegray_800">
+                <LinearLayout android:id="@+id/linearRowupload"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout android:id="@+id/frameTrangch"
+                        android:layout_height="@dimen/_87pxv" android:layout_width="@dimen/_72pxh">
+                        <LinearLayout
+                            android:id="@+id/linearColumnupload"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_17pxv"
+                            android:layout_marginTop="@dimen/_17pxv"
+                            android:layout_width="match_parent" android:orientation="vertical">
+                            <ImageView android:id="@+id/imageUpload"
+                                android:layout_gravity="center"
+                                android:layout_height="@dimen/_25pxh"
+                                android:layout_width="@dimen/_24pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_upload"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_upload"/>
+                            <TextView android:ellipsize="end"
+                                android:gravity="center_horizontal"
+                                android:id="@+id/txtTrangch"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_2pxh"
+                                android:layout_marginStart="@dimen/_2pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="match_parent"
+                                android:lineSpacingExtra="@dimen/_2pxh"
+                                android:singleLine="true"
+                                android:text="@{trangChOneVM.trangChOneModel.txtTrangch}"
+                                style="@style/txtInterregular6" tools:text="@string/lbl_trang_ch"/>
+                        </LinearLayout>
+                        <View android:background="@color/green_401"
+                            android:id="@+id/viewRectangle242"
+                            android:layout_height="@dimen/_87pxh" android:layout_width="@dimen/_72pxh"/>
+                    </FrameLayout>
+                    <LinearLayout android:id="@+id/linearTmkim"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_26pxv"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageSearch"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_25pxh"
+                            android:layout_width="@dimen/_23pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_search"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_search"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtTmkimOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_2pxh"
+                            android:singleLine="true"
+                            android:text="@{trangChOneVM.trangChOneModel.txtTmkimOne}"
+                            style="@style/txtInterregular6" tools:text="@string/lbl_t_m_ki_m"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearNhv"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_25pxv"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageLocation"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_26pxh"
+                            android:layout_width="@dimen/_18pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_location"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_location"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtNhv"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_2pxh"
+                            android:singleLine="true"
+                            android:text="@{trangChOneVM.trangChOneModel.txtNhv}"
+                            style="@style/txtInterregular6" tools:text="@string/lbl_nh_v"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearN"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_26pxv"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageMail"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_25pxh"
+                            android:layout_width="@dimen/_29pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_mail"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_mail"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtN"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_2pxh"
+                            android:singleLine="true"
+                            android:text="@{trangChOneVM.trangChOneModel.txtN}"
+                            style="@style/txtInterregular6" tools:text="@string/lbl_n"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearThm"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_25pxv"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageMenu"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_26pxh"
+                            android:layout_width="@dimen/_39pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_menu"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_menu"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtMrng"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_2pxh"
+                            android:singleLine="true"
+                            android:text="@{trangChOneVM.trangChOneModel.txtMrng}"
+                            style="@style/txtInterregular6" tools:text="@string/lbl_m_r_ng"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

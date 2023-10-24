@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="giftsRowModel" type="com.foo.app.modules.doithuongone.data.model.GiftsRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGift"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylegreen_401cornerRadius">
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtThViettelTwenty"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_7pxv"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_weight="0.66" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@{giftsRowModel.txtThViettelTwenty}"
+            style="@style/txtIntermedium13" tools:text="@string/msg_th_viettel_20"/>
+        <LinearLayout android:id="@+id/linearRowzipcode"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_109pxh"
+            android:layout_weight="0.34" android:layout_width="0dp"
+            android:orientation="horizontal" style="@style/groupStylebluegray_800">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtZipcodeOne"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_6pxv"
+                android:layout_marginStart="@dimen/_7pxh"
+                android:layout_marginTop="@dimen/_7pxv"
+                android:layout_weight="0.82" android:layout_width="0dp"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="@{giftsRowModel.txtZipcodeOne}"
+                style="@style/txtIntermedium13" tools:text="@string/lbl_1000"/>
+            <ImageView android:id="@+id/imageIconOne"
+                android:layout_height="@dimen/_11pxh"
+                android:layout_marginBottom="@dimen/_9pxv"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_2pxh"
+                android:layout_marginTop="@dimen/_9pxv"
+                android:layout_width="@dimen/_7pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_icon_white_a700"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_icon_white_a700"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

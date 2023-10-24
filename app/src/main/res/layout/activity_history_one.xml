@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="historyOneVM" type="com.foo.app.modules.historyone.data.viewmodel.HistoryOneVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumnmusic"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_17pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylebluegray_100">
+        <LinearLayout android:id="@+id/linearHistoryOne"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylebluegray_100">
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearIOSStatusBar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageMusic"
+                    android:layout_height="@dimen/_11pxh"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_width="@dimen/_28pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_music"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_music"/>
+                <ImageView android:id="@+id/imageRightSide"
+                    android:layout_height="@dimen/_11pxh"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginStart="@dimen/_216pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="@dimen/_66pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_rightside"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_rightside"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearHeader"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_bluegray_800_radius_17"
+                    android:id="@+id/btnVector"
+                    android:layout_height="@dimen/_34pxh"
+                    android:layout_width="@dimen/_34pxh"
+                    android:paddingHorizontal="@dimen/_10pxh"
+                    android:paddingVertical="@dimen/_10pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_vector" tools:ignore="ContentDescription"/>
+                <TextView android:ellipsize="end" android:id="@+id/txtN"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginStart="@dimen/_83pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.71"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_6pxh"
+                    android:singleLine="true"
+                    android:text="@{historyOneVM.historyOneModel.txtN}"
+                    style="@style/txtInterbold24" tools:text="@string/lbl_n"/>
+            </LinearLayout>
+            <FrameLayout android:gravity="start"
+                android:id="@+id/frameStackrectangle250"
+                android:layout_height="@dimen/_700pxv"
+                android:layout_marginTop="@dimen/_13pxv" android:layout_width="match_parent">
+                <LinearLayout android:id="@+id/linearMain"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowrectangle250"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_35pxh"
+                        android:layout_marginStart="@dimen/_11pxh"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <ImageView android:id="@+id/imageRectangle250"
+                            android:layout_height="@dimen/_107pxh"
+                            android:layout_width="@dimen/_155pxh"
+                            android:scaleType="fitXY"
+                            imageRes="@{@drawable/img_rectangle250}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle250"/>
+                        <LinearLayout android:id="@+id/linearRowzipcode"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_13pxv"
+                            android:layout_marginStart="@dimen/_58pxh"
+                            android:layout_marginTop="@dimen/_63pxv"
+                            android:layout_weight="0.39"
+                            android:layout_width="0dp"
+                            android:orientation="horizontal" style="@style/groupStylegreen_1">
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtZipcode"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_4pxv"
+                                android:layout_marginStart="@dimen/_21pxh"
+                                android:layout_marginTop="@dimen/_6pxv"
+                                android:layout_weight="0.83"
+                                android:layout_width="0dp"
+                                android:singleLine="true"
+                                android:text="@{historyOneVM.historyOneModel.txtZipcode}"
+                                style="@style/txtInterbold16" tools:text="@string/lbl_3600"/>
+                            <ImageView android:id="@+id/imageIcon"
+                                android:layout_height="@dimen/_14pxh"
+                                android:layout_marginBottom="@dimen/_7pxv"
+                                android:layout_marginEnd="@dimen/_19pxh"
+                                android:layout_marginStart="@dimen/_7pxh"
+                                android:layout_marginTop="@dimen/_8pxv"
+                                android:layout_width="@dimen/_9pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_icon_white_a700"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_icon_white_a700"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:gravity="center_horizontal"
+                        android:id="@+id/recyclerHistoryOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_11pxh"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_19pxh}" tools:itemCount="2" tools:listitem="@layout/row_history_one"/>
+                    <FrameLayout android:id="@+id/frameAddrest"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_125pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_11pxh"
+                        android:layout_marginTop="@dimen/_19pxv" android:layout_width="@dimen/_290pxh">
+                        <ImageView
+                            android:id="@+id/imageRectangle246Two"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_125pxh"
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"
+                            cornerRadius="@{@dimen/_10pxh}"
+                            imageRes="@{@drawable/img_rectangle246_125x290}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle246_125x290"/>
+                        <LinearLayout
+                            android:id="@+id/linearColumnaimthree"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtAimThree"
+                                android:layout_gravity="start"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_24pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_5pxh"
+                                android:singleLine="true"
+                                android:text="@{historyOneVM.historyOneModel.txtAimThree}"
+                                style="@style/txtInterbold20" tools:text="@string/lbl_a_i_m_3"/>
+                            <View
+                                android:background="@drawable/rectangle_bg_green_401_radius_1"
+                                android:id="@+id/lineButton"
+                                android:layout_gravity="end"
+                                android:layout_height="@dimen/_2pxv"
+                                android:layout_marginEnd="@dimen/_9pxh"
+                                android:layout_marginStart="@dimen/_165pxh"
+                                android:layout_marginTop="@dimen/_73pxv" android:layout_width="@dimen/_116pxh"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearPopup"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStyleblack_900_59">
+                    <FrameLayout android:id="@+id/frameUp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_307pxv"
+                        android:layout_marginBottom="@dimen/_250pxv"
+                        android:layout_marginEnd="@dimen/_29pxh"
+                        android:layout_marginStart="@dimen/_29pxh"
+                        android:layout_marginTop="@dimen/_143pxv"
+                        android:layout_width="@dimen/_302pxh" style="@style/groupStylecornerRadius_5">
+                        <ImageView android:id="@+id/imageRunOne"
+                            android:layout_gravity="top|start"
+                            android:layout_height="@dimen/_234pxv"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"
+                            imageRes="@{@drawable/img_run1_234x302}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_run1_234x302"/>
+                        <LinearLayout
+                            android:id="@+id/linearColumnbnmunthamg"
+                            android:layout_gravity="bottom|start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical" style="@style/groupStylewhite_A700">
+                            <TextView android:ellipsize="end"
+                                android:gravity="center_horizontal"
+                                android:id="@+id/txtBnmunthamg"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_17pxh"
+                                android:layout_marginStart="@dimen/_17pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="match_parent"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{historyOneVM.historyOneModel.txtBnmunthamg}"
+                                style="@style/txtInterregular15" tools:text="@string/msg_b_n_mu_n_tham_g"/>
+                            <LinearLayout android:id="@+id/linearRowbtu"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_22pxv"
+                                android:layout_marginEnd="@dimen/_17pxh"
+                                android:layout_marginStart="@dimen/_17pxh"
+                                android:layout_marginTop="@dimen/_19pxv"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:id="@+id/btnBtu"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.51"
+                                    android:layout_width="0dp"
+                                    android:lineSpacingExtra="@dimen/_3pxh"
+                                    android:paddingBottom="@dimen/_10pxv"
+                                    android:paddingEnd="@dimen/_30pxh"
+                                    android:paddingStart="@dimen/_30pxh"
+                                    android:paddingTop="@dimen/_10pxv"
+                                    android:singleLine="true"
+                                    android:text="@string/lbl_b_t_u"
+                                    android:textAllCaps="false"
+                                    style="@style/btnSolidRounded_4" tools:text="@string/lbl_b_t_u"/>
+                                <LinearLayout
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/linearColumntiptcthamq"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_20pxh"
+                                    android:layout_weight="0.49"
+                                    android:layout_width="0dp"
+                                    android:orientation="vertical" style="@style/groupStylebluegray_800cornerRadius">
+                                    <TextView
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/txtTiptcthamq"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="@dimen/_4pxv"
+                                    android:layout_marginEnd="@dimen/_25pxh"
+                                    android:layout_marginStart="@dimen/_28pxh"
+                                    android:layout_marginTop="@dimen/_5pxv"
+                                    android:layout_width="match_parent"
+                                    android:lineSpacingExtra="@dimen/_1pxh"
+                                    android:text="@{historyOneVM.historyOneModel.txtTiptcthamq}"
+                                    style="@style/txtIntersemibold12" tools:text="@string/msg_ti_p_t_c_tham"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" style="@style/groupStylebluegray_800">
+            <LinearLayout android:id="@+id/linearRowupload"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:id="@+id/linearTrangch"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_25pxv"
+                    android:layout_marginTop="@dimen/_17pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageUpload"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_25pxh"
+                        android:layout_width="@dimen/_24pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_upload"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_upload"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtTrangch"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_11pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_2pxh"
+                        android:singleLine="true"
+                        android:text="@{historyOneVM.historyOneModel.txtTrangch}"
+                        style="@style/txtInterregular6" tools:text="@string/lbl_trang_ch"/>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/frameTmkim"
+                    android:layout_height="@dimen/_87pxv" android:layout_width="@dimen/_100pxh">
+                    <LinearLayout android:id="@+id/linearColumnsearch"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageSearch"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_25pxh"
+                            android:layout_width="@dimen/_23pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_search"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_search"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtTmkim"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_2pxh"
+                            android:singleLine="true"
+                            android:text="@{historyOneVM.historyOneModel.txtTmkim}"
+                            style="@style/txtInterregular6" tools:text="@string/lbl_t_m_ki_m"/>
+                    </LinearLayout>
+                    <View android:background="@color/white_A700"
+                        android:id="@+id/viewRectangle241"
+                        android:layout_height="@dimen/_100pxh" android:layout_width="@dimen/_100pxh"/>
+                </FrameLayout>
+                <LinearLayout android:id="@+id/linearNhv"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_25pxv"
+                    android:layout_marginTop="@dimen/_16pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageLocation"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_26pxh"
+                        android:layout_width="@dimen/_18pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_location"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_location"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtNhv"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_9pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_2pxh"
+                        android:singleLine="true"
+                        android:text="@{historyOneVM.historyOneModel.txtNhv}"
+                        style="@style/txtInterregular6" tools:text="@string/lbl_nh_v"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearN"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_26pxv"
+                    android:layout_marginTop="@dimen/_17pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageMail"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_25pxh"
+                        android:layout_width="@dimen/_29pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_mail_bluegray_500"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_mail_bluegray_500"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtNOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_2pxh"
+                        android:singleLine="true"
+                        android:text="@{historyOneVM.historyOneModel.txtNOne}"
+                        style="@style/txtInterregular6" tools:text="@string/lbl_n"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearThm"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_25pxv"
+                    android:layout_marginTop="@dimen/_17pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageMenu"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_26pxh"
+                        android:layout_width="@dimen/_39pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_menu"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_menu"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtMrng"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_2pxh"
+                        android:singleLine="true"
+                        android:text="@{historyOneVM.historyOneModel.txtMrng}"
+                        style="@style/txtInterregular6" tools:text="@string/lbl_m_r_ng"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
