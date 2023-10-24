@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">foo</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_h_ng">Hạng</string>
+<string name="lbl_kh_m_ph">KHÁM PHÁ</string>
+<string name="lbl_n">Đã đến</string>
+<string name="msg_h_i_ch_xinh_f">Hội chợ \u201cXinh fest 2\u201d
+Thời gian: 14/10 - 15/10
+Địa điểm: Complex 01</string>
+<string name="msg_b_n_ch_a_c_t_i">Bạn chưa có tài khoản? Đăng ký tại đây</string>
+<string name="msg_ti_p_t_c_tham">Tiếp tục
+ tham quan</string>
+<string name="lbl_th_i_gian">Thời gian: </string>
+<string name="lbl_v_kh_nh_huy_n2">Vũ Khánh huyền</string>
+<string name="lbl_v_n_h_c">Văn học</string>
+<string name="lbl_qu_n_m_t_kh_u">Quên mật khẩu</string>
+<string name="msg_trung_t_m_ngh">Trung tâm nghệ thuật Đương đại Vincom (VCCA)</string>
+<string name="lbl_b_o_t_ng_h_n_i">Bảo tàng Hà Nội</string>
+<string name="msg_h_g_m_theo_tr">Hồ Gươm
+Theo truyền thuyết, trong một lần vua Lê Thái Tổ dạo chơi trên thuyền, bỗng một con rùa vàng nổi lên mặt nước đòi nhà vua trả thanh gươm mà Long Vương cho mượn để đánh đuổi quân Minh xâm lược. Nhà vua liền trả gươm cho rùa thần và rùa lặn xuống nước biến mất. Từ đó hồ được lấy tên là hồ Hoàn Kiếm.</string>
+<string name="msg_b_n_ch_a_c_t_i2">Bạn chưa có tài khoản?</string>
+<string name="lbl_v_kh_nh_huy_n">Vũ Khánh Huyền</string>
+<string name="lbl_t_n">Tên </string>
+<string name="msg_tri_n_l_m_thu">Triển lãm \u201cThuỷ triều cảm xúc
+Thời gian: 04/10/2023 - 30/03/2024
+Địa điểm: Trung tâm nghệ thuật Đương đại Vincom (VCCA)</string>
+<string name="msg_theo_truy_n_thu">Theo truyền thuyết, trong một lần vua Lê Thái Tổ dạo chơi trên thuyền, bỗng một con rùa vàng nổi lên mặt nước đòi nhà vua trả thanh gươm mà Long Vương cho mượn để đánh đuổi quân Minh xâm lược. Nhà vua liền trả gươm cho rùa thần và rùa lặn xuống nước biến mất. Từ đó hồ được lấy tên là hồ Hoàn Kiếm.</string>
+<string name="lbl_v_n_mi_u">Văn miếu</string>
+<string name="msg_tri_n_l_m_thu2">Triển lãm \u201cThuỷ triều cảm xúc
+</string>
+<string name="lbl_ch_nh_x_c">Chính xác!</string>
+<string name="lbl_qu_i">Quà đã đổi</string>
+<string name="msg_v_n_mi_u_qu_c">Văn Miếu \u2013 Quốc Tử Giám là quần thể di tích đa dạng, phong phú hàng đầu của thành phố Hà Nội, nằm ở phía Nam kinh thành Thăng Long</string>
+<string name="lbl_3600">3600</string>
+<string name="lbl_t_m_ki_m">Tìm kiếm</string>
+<string name="msg_t_m_ki_m_a_i">Tìm kiếm địa điểm, hiện vật,..</string>
+<string name="lbl_foo_cation">Foo-cation</string>
+<string name="lbl_ngh_thu_t">Nghệ thuật</string>
+<string name="lbl_h_g_m">Hồ Gươm
+</string>
+<string name="msg_hi_u_t_i_c">Đã hiểu, tới câu tiếp </string>
+<string name="lbl_a_i_m2">Địa điểm: </string>
+<string name="lbl_ng_nh_p">Đăng nhập</string>
+<string name="lbl_complex_01">Complex 01</string>
+<string name="lbl_hi_n_v_t">Hiện vật</string>
+<string name="lbl_24_12">24/12
+</string>
+<string name="lbl_14_10_15_10">14/10 - 15/10
+</string>
+<string name="lbl_trang_ch">Trang chủ</string>
+<string name="msg_08_00_11_30_13">08:00\u201311:30, 13:30\u201317:00
+các ngày trong tuần, trừ thứ hai</string>
+<string name="lbl_i_trung_m_n">Đại Trung Môn</string>
+<string name="msg_th_viettel_50">Thẻ Viettel 50.000Đ</string>
+<string name="lbl_a_i_m_3">Địa điểm 3</string>
+<string name="msg_b_n_mu_n_tham_g">Bạn muốn tham gia Quiz chứ?</string>
+<string name="lbl_4522330866328">4522330866328</string>
+<string name="lbl_a_i_m_2">Địa điểm 2</string>
+<string name="msg_khu_v_n_c_c_tr">Khuê Văn các trước nay được diễn giải theo nhiều cách khác nhau. Đại ý rằng: "Khuê" tức là ngôi sao sáng, Khuê Văn các là biểu hiện đỉnh cao của trí tuệ, là sự nhắc lại chân lý "Hiền tài là nguyên khí quốc gia" trên văn bia Văn Miếu.</string>
+<string name="msg_04_10_2023_30">04/10/2023 - 30/03/2024
+</string>
+<string name="msg_th_vinaphone_5">Thẻ Vinaphone 50.000Đ</string>
+<string name="lbl_s_ki_n">Sự kiện</string>
+<string name="lbl_v_n_mi_u_m_n">Văn Miếu Môn</string>
+<string name="msg_h_i_ch_xinh_f2">Hội chợ \u201cXinh fest 2\u201d
+</string>
+<string name="lbl_th_ng_tin">Thông tin</string>
+<string name="msg_b_n_c_t_i_k2">Bạn đã có tài khoản? 
+</string>
+<string name="lbl_vkh_gmail_3">vkh@gmail.&lt;3</string>
+<string name="msg_th_viettel_100">Thẻ Viettel 100.000Đ</string>
+<string name="lbl_ng_k">Đăng ký</string>
+<string name="lbl_500">500đ</string>
+<string name="msg_t_n_a_i_m_n">Tên địa điểm này là gì?</string>
+<string name="lbl_v_n_hi_u_m_n">Văn Hiếu Môn</string>
+<string name="msg_th_vinaphone_1">Thẻ Vinaphone 100.000Đ</string>
+<string name="msg_th_vinaphone_2">Thẻ Vinaphone 20.000Đ</string>
+<string name="lbl_email2">Email:</string>
+<string name="lbl_n_kh_i_th_nh">Đền Khải Thánh</string>
+<string name="msg_k_t_th_c_kh_m_p">Kết thúc khám phá</string>
+<string name="lbl_i_th_ng">Đổi thưởng</string>
+<string name="msg_ph_m_h_ng_m_t">Phạm Hùng, Mễ Trì, Nam Từ Liêm, Hà Nội 100000, 
+Việt Nam</string>
+<string name="lbl_a_i_m">Địa điểm</string>
+<string name="lbl_b_t_u">Bắt đầu</string>
+<string name="msg_xin_ch_o_huy_n">Xin chào Huyền!
+Hãy cùng nhau tham quan nhé</string>
+<string name="lbl_nh_p_t_kho">Nhập từ khoá</string>
+<string name="msg_h_y_c_ng_nhau_t">Hãy cùng nhau tham quan nhé</string>
+<string name="lbl_t_n_ng_nh_p">Tên đăng nhập:</string>
+<string name="lbl_i_m_th_ng">Điểm thưởng:</string>
+<string name="lbl_s_seri">Số seri: </string>
+<string name="lbl_m_th">Mã thẻ:</string>
+<string name="lbl">***********</string>
+<string name="lbl_momo_20_000">Momo 20.000Đ</string>
+<string name="msg_v_n_mi_u_qu_c_t2">Văn miếu Quốc Tử Giám</string>
+<string name="msg_nh_p_l_i_m_t_kh">Nhập lại mật khẩu</string>
+<string name="lbl_nh_v">Định vị</string>
+<string name="lbl_email">Email</string>
+<string name="lbl_t_n_h_ng">\u201cTận hưởng\u201d
+</string>
+<string name="lbl_t_n2">Tên:</string>
+<string name="lbl_b_c">Bạc</string>
+<string name="lbl_xin_ch_o_huy_n">Xin chào Huyền!
+</string>
+<string name="lbl_5">+5</string>
+<string name="lbl_v_t_ph_m_b_n">Vật phẩm bí ẩn</string>
+<string name="msg_th_viettel_20">Thẻ Viettel 20.000Đ</string>
+<string name="lbl_t_i_y">tại đây</string>
+<string name="lbl_2500">2500</string>
+<string name="lbl_nh_p_v_tr">Nhập vị trí</string>
+<string name="msg_v_n_mi_u_qu_c_t">Văn miếu Quốc tử giám</string>
+<string name="lbl_c_nh_n">Cá nhân</string>
+<string name="msg_d_i_y_l_th">Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin Dưới đây là thông tin  </string>
+<string name="lbl_53835832354">53835832354</string>
+<string name="lbl_h_g_m2">Hồ Gươm</string>
+<string name="msg_nh_p_momo_nh_n">Nhập momo nhận thưởng</string>
+<string name="msg_b_o_t_ng_h_nh_k">Bảo tàng hình kim tự tháp ngược trưng bày các 
+hiện vật lịch sử về Hà Nội và Việt Nam.</string>
+<string name="lbl_quiz">Quiz</string>
+<string name="lbl_m_t_kh_u2">Mật khẩu:</string>
+<string name="lbl_l_ch_s">Lịch sử</string>
+<string name="msg_t_n_h_ng_th">\u201cTận hưởng\u201d
+Thời gian: 24/12
+Địa điểm: Phố đi bộ Hồ Gươm</string>
+<string name="msg_b_n_c_t_i_k">Bạn đã có tài khoản? 
+Đăng nhập tại đây</string>
+<string name="msg_ph_i_b_h_g">Phố đi bộ Hồ Gươm</string>
+<string name="lbl_4500">4500</string>
+<string name="lbl_m_r_ng">Mở rộng</string>
+<string name="lbl_sai_i">Sai òi ~~</string>
+<string name="msg_bia_ti_n_s_v_n">Bia tiến sĩ Văn Miếu</string>
+<string name="lbl_g_i">Gợi ý</string>
+<string name="msg_hhh_b_n_n">Ồhhh bạn đã đến Hồ Gươm rồi.
+Hãy tham quan với chúng tôi nhé</string>
+<string name="lbl_1000">1000</string>
+<string name="lbl_m_t_kh_u">Mật khẩu</string>
+<string name="lbl_t_i_y2"> tại đây</string>
+<string name="lbl_khu_v_n_c_c">Khuê Văn Các</string>
+<string name="msg_c_th_b_n_s_t">Có thể bạn sẽ thích</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+</resources>

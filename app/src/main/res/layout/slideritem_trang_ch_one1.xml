@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="imageSliderSlidercthbnstModel" type="com.foo.app.modules.trangchone.data.model.ImageSliderSlidercthbnstModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGi"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" android:orientation="vertical">
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtCthbnst"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_5pxh"
+            android:singleLine="true"
+            android:text="@{imageSliderSlidercthbnstModel.txtCthbnst}"
+            style="@style/txtIntersemibold20" tools:text="@string/msg_c_th_b_n_s_t"/>
+        <FrameLayout android:id="@+id/frameContent"
+            android:layout_gravity="end"
+            android:layout_height="@dimen/_193pxv"
+            android:layout_marginBottom="@dimen/_12pxv"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_7pxv"
+            android:layout_width="@dimen/_279pxh" style="@style/groupStylecornerRadius">
+            <ImageView android:id="@+id/imageImageOne"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_193pxh"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                cornerRadius="@{@dimen/_10pxh}"
+                imageUrl="@{imageSliderSlidercthbnstModel.imageImageOne}"
+                placeHolder="@{@drawable/image_not_found}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_image1"/>
+            <LinearLayout android:id="@+id/linearColumndescription"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylecornerRadius_6">
+                <TextView android:gravity="center_horizontal"
+                    android:id="@+id/txtDescription"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_85pxv"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:text="@{imageSliderSlidercthbnstModel.txtDescription}"
+                    style="@style/txtArialboldmt20" tools:text="@string/msg_h_g_m_theo_tr"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

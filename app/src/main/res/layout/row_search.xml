@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="searchRowModel" type="com.foo.app.modules.search.data.model.SearchRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowicon"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylegreen_100cornerRadius">
+        <ImageView android:id="@+id/imageIconFive"
+            android:layout_height="@dimen/_13pxh"
+            android:layout_marginBottom="@dimen/_17pxv"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_width="@dimen/_16pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_icon_gray_800"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_icon_gray_800"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtHinvt"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_14pxv"
+            android:layout_marginEnd="@dimen/_45pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_weight="0.78" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@{searchRowModel.txtHinvt}"
+            style="@style/txtInterbold14" tools:text="@string/lbl_hi_n_v_t"/>
+    </LinearLayout>
+</layout>
