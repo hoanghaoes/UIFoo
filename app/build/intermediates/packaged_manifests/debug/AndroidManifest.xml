@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.foo.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.foo.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.foo.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.foo.app.appcomponents.di.MyApp"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.MyApp"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.foo.app.modules.quizzone.ui.QuizzOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.locationtwo.ui.LocationTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.listartifactstart.ui.ListArtifactStartActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.foo.app.modules.artifactinformation.ui.ArtifactInformationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.ngnhpone.ui.NgNhPOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.historyone.ui.HistoryOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.trangchone.ui.TrangChOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.khmph.ui.KhMPhActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.doithuongonecontainer.ui.DoiThuongOneContainerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.location2start.ui.Location2StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.profile.ui.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.ngkone.ui.NgKOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.locationthree.ui.LocationThreeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foo.app.modules.doithuong.ui.DoiThuongActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.foo.app.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

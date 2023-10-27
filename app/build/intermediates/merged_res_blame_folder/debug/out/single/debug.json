@@ -1,0 +1,738 @@
+[
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_fragment_search.xml.flat",
+        "source": "com.foo.app-main-46:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_black_900_59.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_black_900_59.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle246_1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle246_1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700_radius_40.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700_radius_40.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_basemapimage_489x360.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_basemapimage_489x360.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_trang_ch_one.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_trang_ch_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_gradient_s_gray_50_7a_e_black_900_7a_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_gradient_s_gray_50_7a_e_black_900_7a_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle249_1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle249_1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_indicator_selected_bg_bluegray_800_radius_8.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/indicator_selected_bg_bluegray_800_radius_8.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_robotoromanmedium.ttf.flat",
+        "source": "com.foo.app-main-46:/font/robotoromanmedium.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_gray_100_border_bluegray_800_radius_23.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_gray_100_border_bluegray_800_radius_23.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse1_224x167.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse1_224x167.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_100.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_100.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_row_history_one.xml.flat",
+        "source": "com.foo.app-main-46:/layout/row_history_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_history_one.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_history_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_basemapimage.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_basemapimage.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_200_radius_20.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_200_radius_20.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_location_two.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_location_two.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_red_900_radius_7.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_red_900_radius_7.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse6.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse6.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_unsplashfapeu.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_unsplashfapeu.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_image2.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_image2.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_music.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_music.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_interthin.ttf.flat",
+        "source": "com.foo.app-main-46:/font/interthin.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_radius_20.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_radius_20.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_list_artifact_start.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_list_artifact_start.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.foo.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_fragment_history.xml.flat",
+        "source": "com.foo.app-main-46:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rightside.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rightside.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_800.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_800.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse7.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse7.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_group1.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_group1.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.foo.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_javanese_text.xml.flat",
+        "source": "com.foo.app-main-46:/font/javanese_text.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_image1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_image1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse7_158x158.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse7_158x158.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_gray_700_radius_2_5.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_gray_700_radius_2_5.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_401_radius_1.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_401_radius_1.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_ng_k_one.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_ng_k_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_menu.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_menu.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_doi_thuong.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_doi_thuong.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_upload.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_upload.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_addressbro1.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_addressbro1.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_notification.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_notification.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_gray_800_14x15.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_gray_800_14x15.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_image4.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_image4.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_thp1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_thp1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_row_search.xml.flat",
+        "source": "com.foo.app-main-46:/layout/row_search.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_star.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_star.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_vector.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_vector.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_gray_50.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_gray_50.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_arial.xml.flat",
+        "source": "com.foo.app-main-46:/font/arial.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_run1_234x302.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_run1_234x302.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse6_361x279.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse6_361x279.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_file.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_file.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700_radius_8.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700_radius_8.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_basemapimage_2.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_basemapimage_2.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_15x15.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_15x15.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_arrowleft.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_arrowleft.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse2.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse2.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_500_radius_bl_40_br_40.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_500_radius_bl_40_br_40.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_jockeyoneregular.ttf.flat",
+        "source": "com.foo.app-main-46:/font/jockeyoneregular.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_computer.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_computer.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_ng_nh_p_one.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_ng_nh_p_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_red_a700_16x13.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_red_a700_16x13.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_calendar.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_calendar.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/raw_lottie_loading.json.flat",
+        "source": "com.foo.app-main-46:/raw/lottie_loading.json"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_401_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_401_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_800_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_800_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle249_86x90.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle249_86x90.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse5.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse5.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle246_80x80.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle246_80x80.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_dialog_quizz_true.xml.flat",
+        "source": "com.foo.app-main-46:/layout/dialog_quizz_true.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_robotoromanregular.ttf.flat",
+        "source": "com.foo.app-main-46:/font/robotoromanregular.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_gray_100_border_bluegray_800_radius_23_075.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_gray_100_border_bluegray_800_radius_23_075.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_robotoromanbold.ttf.flat",
+        "source": "com.foo.app-main-46:/font/robotoromanbold.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ra1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ra1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_home.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_home.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_slideritem_trang_ch_one1.xml.flat",
+        "source": "com.foo.app-main-46:/layout/slideritem_trang_ch_one1.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_gray_800_15x15.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_gray_800_15x15.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700_cc_radius_20.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700_cc_radius_20.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_bungeeinlineregular.ttf.flat",
+        "source": "com.foo.app-main-46:/font/bungeeinlineregular.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_100_radius_15.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_100_radius_15.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse3.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse3.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_mail_bluegray_500.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_mail_bluegray_500.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_dhi_0.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_dhi_0.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_gray_801.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_gray_801.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_gradient_s_black_900_7f_e_black_900_7f_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_gradient_s_black_900_7f_e_black_900_7f_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse3_281x276.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse3_281x276.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_gray_800_16x13.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_gray_800_16x13.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_red_a700.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_red_a700.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_gip1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_gip1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_red_a700.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_red_a700.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_kim1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_kim1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_quizz_one.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_quizz_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_bungee_inline.xml.flat",
+        "source": "com.foo.app-main-46:/font/bungee_inline.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_doi_thuong_one_container.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_doi_thuong_one_container.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_location_three.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_location_three.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_intersemibold.ttf.flat",
+        "source": "com.foo.app-main-46:/font/intersemibold.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_gradient_s_white_a700_21_e_black_900_a0_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_gradient_s_white_a700_21_e_black_900_a0_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_401_radius_15.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_401_radius_15.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_500_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_500_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_dialog_quizz_false.xml.flat",
+        "source": "com.foo.app-main-46:/layout/dialog_quizz_false.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_gradient_s_black_900_75_e_white_a700_00_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_gradient_s_black_900_75_e_white_a700_00_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_teal_a700.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_teal_a700.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_indicator_unselected_bg_bluegray_100_radius_8.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/indicator_unselected_bg_bluegray_100_radius_8.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700_radius_20.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700_radius_20.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_arrowright.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_arrowright.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_artifact_information.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_artifact_information.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse2_79x60.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse2_79x60.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_image5.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_image5.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_interregular.ttf.flat",
+        "source": "com.foo.app-main-46:/font/interregular.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_location_2_start.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_location_2_start.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700_radius_tl_15_tr_15.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700_radius_tl_15_tr_15.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_gray_200.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_gray_200.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_layout_progress_dialog.xml.flat",
+        "source": "com.foo.app-main-46:/layout/layout_progress_dialog.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_arrowup.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_arrowup.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_basemapimage_1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_basemapimage_1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_401.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_401.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_radius_8.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_radius_8.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700_border_bluegray_101_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700_border_bluegray_101_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_intermedium.ttf.flat",
+        "source": "com.foo.app-main-46:/font/intermedium.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_401_radius_15_5.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_401_radius_15_5.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_run1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_run1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle243.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle243.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_iosstatusbar.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_iosstatusbar.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_profile.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_white_a700.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_white_a700.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_fragment_doi_thuong_one.xml.flat",
+        "source": "com.foo.app-main-46:/layout/fragment_doi_thuong_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_fragment_location_one.xml.flat",
+        "source": "com.foo.app-main-46:/layout/fragment_location_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_mail.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_mail.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_interbold.ttf.flat",
+        "source": "com.foo.app-main-46:/font/interbold.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.foo.app-main-46:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_cu1.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_cu1.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle250.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle250.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse4.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse4.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_inter.xml.flat",
+        "source": "com.foo.app-main-46:/font/inter.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.foo.app-pngs-39:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_image_not_found.png.flat",
+        "source": "com.foo.app-main-46:/drawable/image_not_found.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle246_125x290.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle246_125x290.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_500_radius_15_5.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_500_radius_15_5.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_401_radius_14.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_401_radius_14.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_500_radius_14_5.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_500_radius_14_5.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_50_radius_15.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_50_radius_15.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_car.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_car.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_roboto.xml.flat",
+        "source": "com.foo.app-main-46:/font/roboto.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_activity_kh_m_ph.xml.flat",
+        "source": "com.foo.app-main-46:/layout/activity_kh_m_ph.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_gradient_s_black_900_70_e_white_a700_00_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_gradient_s_black_900_70_e_white_a700_00_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_500_radius_bl_20_br_20.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_500_radius_bl_20_br_20.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_group19.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_group19.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_800_radius_tl_20_tr_20.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_800_radius_tl_20_tr_20.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle249.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle249.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_search.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_search.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_interlight.ttf.flat",
+        "source": "com.foo.app-main-46:/font/interlight.ttf"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_bluegray_800_radius_17.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_bluegray_800_radius_17.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_rectangle246.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_rectangle246.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/font_jockey_one.xml.flat",
+        "source": "com.foo.app-main-46:/font/jockey_one.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_icon_gray_800.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_icon_gray_800.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_gray_300_ad.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_gray_300_ad.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_row_gifts.xml.flat",
+        "source": "com.foo.app-main-46:/layout/row_gifts.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_image3.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_image3.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_401_radius_14_5.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_401_radius_14_5.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_gradient_s_black_900_60_e_white_a700_00_radius_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_gradient_s_black_900_60_e_white_a700_00_radius_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ac478a74b213f6e.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ac478a74b213f6e.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_location.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/img_location.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_img_ellipse4_282x194.png.flat",
+        "source": "com.foo.app-main-46:/drawable/img_ellipse4_282x194.png"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/layout_row_history.xml.flat",
+        "source": "com.foo.app-main-46:/layout/row_history.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_white_a700_cc_border_bluegray_101_radius_tl_10_tr_10.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_white_a700_cc_border_bluegray_101_radius_tl_10_tr_10.xml"
+    },
+    {
+        "merged": "com.foo.app-merged_res-44:/drawable_rectangle_bg_green_400_radius_20_5.xml.flat",
+        "source": "com.foo.app-main-46:/drawable/rectangle_bg_green_400_radius_20_5.xml"
+    }
+]

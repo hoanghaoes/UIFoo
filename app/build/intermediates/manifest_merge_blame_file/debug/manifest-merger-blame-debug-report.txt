@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.foo.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:3:5-66
+11-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:4:5-78
+12-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:4:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\hoang\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.foo.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\hoang\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\hoang\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.foo.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\hoang\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\hoang\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:5:5-44:19
+21        android:name="com.foo.app.appcomponents.di.MyApp"
+21-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:8:9-58
+22        android:allowBackup="false"
+22-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:5:18-45
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\hoang\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:6:9-43
+27        android:label="@string/app_name"
+27-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:7:9-41
+28        android:largeHeap="true"
+28-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:7:42-66
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:9:9-54
+30        android:supportsRtl="true"
+30-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:10:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.MyApp"
+32-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:10:36-70
+33        android:usesCleartextTraffic="true" >
+33-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:10:71-106
+34        <activity
+34-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:11:9-12:115
+35            android:name="com.foo.app.modules.quizzone.ui.QuizzOneActivity"
+35-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:12:13-76
+36            android:screenOrientation="portrait" />
+36-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:12:77-113
+37        <activity
+37-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:13:9-14:121
+38            android:name="com.foo.app.modules.locationtwo.ui.LocationTwoActivity"
+38-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:14:13-82
+39            android:screenOrientation="portrait" />
+39-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:14:83-119
+40        <activity
+40-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:15:9-21:20
+41            android:name="com.foo.app.modules.listartifactstart.ui.ListArtifactStartActivity"
+41-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:16:13-94
+42            android:exported="true"
+42-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:15:19-42
+43            android:screenOrientation="portrait" >
+43-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:16:95-131
+44            <intent-filter>
+44-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:17:13-20:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:18:17-68
+45-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:18:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:19:17-76
+47-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:19:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:22:9-23:137
+51            android:name="com.foo.app.modules.artifactinformation.ui.ArtifactInformationActivity"
+51-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:23:13-98
+52            android:screenOrientation="portrait" />
+52-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:23:99-135
+53        <activity
+53-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:24:9-25:115
+54            android:name="com.foo.app.modules.ngnhpone.ui.NgNhPOneActivity"
+54-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:25:13-76
+55            android:screenOrientation="portrait" />
+55-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:25:77-113
+56        <activity
+56-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:26:9-27:119
+57            android:name="com.foo.app.modules.historyone.ui.HistoryOneActivity"
+57-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:27:13-80
+58            android:screenOrientation="portrait" />
+58-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:27:81-117
+59        <activity
+59-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:28:9-29:119
+60            android:name="com.foo.app.modules.trangchone.ui.TrangChOneActivity"
+60-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:29:13-80
+61            android:screenOrientation="portrait" />
+61-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:29:81-117
+62        <activity
+62-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:30:9-31:109
+63            android:name="com.foo.app.modules.khmph.ui.KhMPhActivity"
+63-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:31:13-70
+64            android:screenOrientation="portrait" />
+64-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:31:71-107
+65        <activity
+65-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:32:9-33:141
+66            android:name="com.foo.app.modules.doithuongonecontainer.ui.DoiThuongOneContainerActivity"
+66-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:33:13-102
+67            android:screenOrientation="portrait" />
+67-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:33:103-139
+68        <activity
+68-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:34:9-35:127
+69            android:name="com.foo.app.modules.location2start.ui.Location2StartActivity"
+69-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:35:13-88
+70            android:screenOrientation="portrait" />
+70-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:35:89-125
+71        <activity
+71-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:36:9-37:113
+72            android:name="com.foo.app.modules.profile.ui.ProfileActivity"
+72-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:37:13-74
+73            android:screenOrientation="portrait" />
+73-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:37:75-111
+74        <activity
+74-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:38:9-39:111
+75            android:name="com.foo.app.modules.ngkone.ui.NgKOneActivity"
+75-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:39:13-72
+76            android:screenOrientation="portrait" />
+76-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:39:73-109
+77        <activity
+77-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:40:9-41:125
+78            android:name="com.foo.app.modules.locationthree.ui.LocationThreeActivity"
+78-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:41:13-86
+79            android:screenOrientation="portrait" />
+79-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:41:87-123
+80        <activity
+80-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:42:9-43:117
+81            android:name="com.foo.app.modules.doithuong.ui.DoiThuongActivity"
+81-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:43:13-78
+82            android:screenOrientation="portrait" />
+82-->E:\WEB\UIFoo\app\src\main\AndroidManifest.xml:43:79-115
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hoang\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hoang\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.foo.app.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hoang\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hoang\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hoang\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hoang\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hoang\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hoang\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hoang\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hoang\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+94        </provider>
+95    </application>
+96
+97</manifest>

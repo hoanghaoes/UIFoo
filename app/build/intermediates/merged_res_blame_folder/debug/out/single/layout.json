@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_location_three.xml",
+        "source": "com.foo.app-main-46:/layout/activity_location_three.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_doi_thuong.xml",
+        "source": "com.foo.app-main-46:/layout/activity_doi_thuong.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_ng_nh_p_one.xml",
+        "source": "com.foo.app-main-46:/layout/activity_ng_nh_p_one.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_quizz_one.xml",
+        "source": "com.foo.app-main-46:/layout/activity_quizz_one.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_doi_thuong_one_container.xml",
+        "source": "com.foo.app-main-46:/layout/activity_doi_thuong_one_container.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/dialog_quizz_false.xml",
+        "source": "com.foo.app-main-46:/layout/dialog_quizz_false.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/slideritem_trang_ch_one1.xml",
+        "source": "com.foo.app-main-46:/layout/slideritem_trang_ch_one1.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_list_artifact_start.xml",
+        "source": "com.foo.app-main-46:/layout/activity_list_artifact_start.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_trang_ch_one.xml",
+        "source": "com.foo.app-main-46:/layout/activity_trang_ch_one.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_profile.xml",
+        "source": "com.foo.app-main-46:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/dialog_quizz_true.xml",
+        "source": "com.foo.app-main-46:/layout/dialog_quizz_true.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/row_history.xml",
+        "source": "com.foo.app-main-46:/layout/row_history.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_artifact_information.xml",
+        "source": "com.foo.app-main-46:/layout/activity_artifact_information.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_history_one.xml",
+        "source": "com.foo.app-main-46:/layout/activity_history_one.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_kh_m_ph.xml",
+        "source": "com.foo.app-main-46:/layout/activity_kh_m_ph.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/fragment_search.xml",
+        "source": "com.foo.app-main-46:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_ng_k_one.xml",
+        "source": "com.foo.app-main-46:/layout/activity_ng_k_one.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/fragment_doi_thuong_one.xml",
+        "source": "com.foo.app-main-46:/layout/fragment_doi_thuong_one.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_location_two.xml",
+        "source": "com.foo.app-main-46:/layout/activity_location_two.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/activity_location_2_start.xml",
+        "source": "com.foo.app-main-46:/layout/activity_location_2_start.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/layout_progress_dialog.xml",
+        "source": "com.foo.app-main-46:/layout/layout_progress_dialog.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/row_search.xml",
+        "source": "com.foo.app-main-46:/layout/row_search.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/row_gifts.xml",
+        "source": "com.foo.app-main-46:/layout/row_gifts.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/fragment_location_one.xml",
+        "source": "com.foo.app-main-46:/layout/fragment_location_one.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/fragment_history.xml",
+        "source": "com.foo.app-main-46:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.foo.app-mergeDebugResources-43:/layout/row_history_one.xml",
+        "source": "com.foo.app-main-46:/layout/row_history_one.xml"
+    }
+]
